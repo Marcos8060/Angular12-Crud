@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ViewUsersComponent } from './view-users/view-users.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ViewUsersComponent
+  ],
   imports: [
     CommonModule
   ]
