@@ -5,6 +5,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -17,7 +18,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   imports: [
     CommonModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule
   ],
   exports:[
     HeaderComponent,
